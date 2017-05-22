@@ -1,0 +1,12 @@
+polynomial\PolynomialMultiplyTest.class
+monomial\MonomialAddTest.class
+utils\GetPolynomialFromIntWithBaseTest.class
+spbgu\diploma\FullyHomomorphicEncryptionApplicationTests.class
+monomial\MonomialDivideTest.class
+polynom\PolynomialSubtractTest.class
+polynomial\PolynomialStringRepresentationTest.class
+polynomial\PolynomialMapWithTest.class
+polynomial\PolynomialAddTest.class
+monomial\MonomialSubtractTest.class
+polynomial\PolinomialDivideTest.class
+polynomial\PolinomialPowTest.class

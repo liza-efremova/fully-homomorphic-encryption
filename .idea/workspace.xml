@@ -2,145 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b2d9a02-0783-4bfe-adae-84ff4dcfb5a2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_4_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_24.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_24.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_angularjs_1_4_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jasmine_2_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/.wro4j/buildContext.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/beans/Monomial.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/beans/Polynomial.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/beans/PolynomialFraction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/beans/RationalPolynomial.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/beans/SecretKey.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spbgu/diploma/FullyHomomorphicEncryptionApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/angular-bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/angular-bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/hello.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/utils/HomomorphicEncryptionUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fully-homomorphic-encryption-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fully-homomorphic-encryption-1.0-SNAPSHOT.jar.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/static/css/angular-bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-resources/static/js/angular-bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-monomial.MonomialAddTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-monomial.MonomialDivideTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-monomial.MonomialSubtractTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-polynom.PolynomialSubtractTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-polynomial.PolinomialDivideTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-polynomial.PolinomialPowTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-polynomial.PolynomialAddTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-polynomial.PolynomialMapWithTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-polynomial.PolynomialMultiplyTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-polynomial.PolynomialStringRepresentationTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-spbgu.diploma.FullyHomomorphicEncryptionApplicationTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-utils.GetPolynomialFromIntWithBaseTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/monomial.MonomialAddTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/monomial.MonomialDivideTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/monomial.MonomialSubtractTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/polynom.PolynomialSubtractTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/polynomial.PolinomialDivideTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/polynomial.PolinomialPowTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/polynomial.PolynomialAddTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/polynomial.PolynomialMapWithTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/polynomial.PolynomialMultiplyTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/polynomial.PolynomialStringRepresentationTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/spbgu.diploma.FullyHomomorphicEncryptionApplicationTests.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/utils.GetPolynomialFromIntWithBaseTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/monomial/MonomialAddTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/monomial/MonomialDivideTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/monomial/MonomialSubtractTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/polynom/PolynomialSubtractTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/polynomial/PolinomialDivideTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/polynomial/PolinomialPowTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/polynomial/PolynomialAddTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/polynomial/PolynomialMapWithTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/polynomial/PolynomialMultiplyTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/polynomial/PolynomialStringRepresentationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/spbgu/diploma/FullyHomomorphicEncryptionApplicationTests.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/utils/DecodeTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/utils/EncodeTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/utils/FullyHomomorphicEncryptionTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/utils/GerRandomPolynomialTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/utils/GetPolynomialFromIntWithBaseTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/utils/polynomialNOKandNOD.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wro/main.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wro/wro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wro/wro.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/beans/Monomial.java" afterPath="$PROJECT_DIR$/src/main/java/beans/Monomial.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/beans/Polynomial.java" afterPath="$PROJECT_DIR$/src/main/java/beans/Polynomial.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/beans/PolynomialFraction.java" afterPath="$PROJECT_DIR$/src/main/java/beans/PolynomialFraction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/beans/RationalPolynomial.java" afterPath="$PROJECT_DIR$/src/main/java/beans/RationalPolynomial.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/HomomorphicEncryptionUtils.java" afterPath="$PROJECT_DIR$/src/main/java/utils/HomomorphicEncryptionUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/monomial/MonomialAddTest.java" afterPath="$PROJECT_DIR$/src/test/java/monomial/MonomialAddTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/monomial/MonomialDivideTest.java" afterPath="$PROJECT_DIR$/src/test/java/monomial/MonomialDivideTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/monomial/MonomialSubtractTest.java" afterPath="$PROJECT_DIR$/src/test/java/monomial/MonomialSubtractTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/polynomial/PolinomialDivideTest.java" afterPath="$PROJECT_DIR$/src/test/java/polynomial/PolinomialDivideTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/polynomial/PolinomialPowTest.java" afterPath="$PROJECT_DIR$/src/test/java/polynomial/PolinomialPowTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/polynomial/PolynomialAddTest.java" afterPath="$PROJECT_DIR$/src/test/java/polynomial/PolynomialAddTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/polynomial/PolynomialMapWithTest.java" afterPath="$PROJECT_DIR$/src/test/java/polynomial/PolynomialMapWithTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/polynomial/PolynomialMultiplyTest.java" afterPath="$PROJECT_DIR$/src/test/java/polynomial/PolynomialMultiplyTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/polynomial/PolynomialStringRepresentationTest.java" afterPath="$PROJECT_DIR$/src/test/java/polynomial/PolynomialStringRepresentationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/polynomial/PolynomialSubtractTest.java" afterPath="$PROJECT_DIR$/src/test/java/polynomial/PolynomialSubtractTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/utils/GetPolynomialFromIntWithBaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/utils/GetPolynomialFromIntWithBaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/utils/polynomialNOKandNOD.java" afterPath="$PROJECT_DIR$/src/test/java/utils/polynomialNOKandNOD.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,44 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GerRandomPolynomialTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/GerRandomPolynomialTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-              <folding>
-                <element signature="e#313#314#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetPolynomialFromIntWithBaseTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetPolynomialFromIntWithBaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/GetPolynomialFromIntWithBaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="polynomialNOKandNOD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/polynomialNOKandNOD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MonomialSubtractTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/monomial/MonomialSubtractTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="525">
+              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,28 +42,66 @@
       <file leaf-file-name="PolynomialStringRepresentationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/polynomial/PolynomialStringRepresentationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PolinomialPowTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/polynomial/PolinomialPowTest.java">
+      <file leaf-file-name="SecretKey.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beans/SecretKey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="315">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding>
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RationalPolynomial.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beans/RationalPolynomial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="e#4645#4646#0" expanded="true" />
+                <element signature="e#4676#4677#0" expanded="true" />
+                <element signature="e#4716#4717#0" expanded="true" />
+                <element signature="e#4748#4749#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Polynomial.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beans/Polynomial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="626">
+              <caret line="105" column="46" lean-forward="false" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PolynomialAddTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/polynomial/PolynomialAddTest.java">
+      <file leaf-file-name="PolynomialFraction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beans/PolynomialFraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="479">
+              <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="111" column="41" lean-forward="false" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -239,7 +110,7 @@
       <file leaf-file-name="PolynomialMapWithTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/polynomial/PolynomialMapWithTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="105">
               <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
@@ -259,7 +130,7 @@
       <file leaf-file-name="PolynomialSubtractTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/polynomial/PolynomialSubtractTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="105">
               <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -290,6 +161,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="efreme" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -307,7 +183,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/beans/PolynomialReminder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/beans/RationalPolynomial.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/NOKandNODpolinomial.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/PolynomialFraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/SecretKey.java" />
@@ -324,13 +199,14 @@
         <option value="$PROJECT_DIR$/src/test/java/monomial/MonomialSubtractTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/polynomial/PolinomialDivideTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/polynomialNOKandNOD.java" />
-        <option value="$PROJECT_DIR$/src/test/java/polynomial/PolynomialStringRepresentationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/polynomial/PolinomialPowTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/polynomial/PolynomialAddTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/polynomial/PolynomialMapWithTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/polynomial/PolynomialMultiplyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/polynomial/PolynomialSubtractTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/GetPolynomialFromIntWithBaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/polynomial/PolynomialStringRepresentationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/beans/RationalPolynomial.java" />
       </list>
     </option>
   </component>
@@ -384,11 +260,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fully-homomorphic-encryption" />
+              <option name="myItemId" value="FullyHomomorphicEncryption" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -396,72 +275,127 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullyHomomorphicEncryption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullyHomomorphicEncryption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullyHomomorphicEncryption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullyHomomorphicEncryption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullyHomomorphicEncryption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullyHomomorphicEncryption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullyHomomorphicEncryption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullyHomomorphicEncryption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diploma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullyHomomorphicEncryption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullyHomomorphicEncryption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="JUnit.EncodeTest">
-    <configuration default="false" name="GerRandomPolynomialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="fully-homomorphic-encryption" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.GerRandomPolynomialTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="polynomialNOKandNOD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="fully-homomorphic-encryption" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.polynomialNOKandNOD" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PolynomialStringRepresentationTest.stringRepresentationAllNegativeBaseTest">
     <configuration default="false" name="polynomialNOKandNOD.getNODtest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -528,6 +462,58 @@
       <option name="MAIN_CLASS_NAME" value="utils.EncodeTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PolynomialStringRepresentationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="polynomial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="fully-homomorphic-encryption" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="polynomial" />
+      <option name="MAIN_CLASS_NAME" value="polynomial.PolynomialStringRepresentationTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PolynomialStringRepresentationTest.stringRepresentationAllNegativeBaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="polynomial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="fully-homomorphic-encryption" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="polynomial" />
+      <option name="MAIN_CLASS_NAME" value="polynomial.PolynomialStringRepresentationTest" />
+      <option name="METHOD_NAME" value="stringRepresentationAllNegativeBaseTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -767,19 +753,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GerRandomPolynomialTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.polynomialNOKandNOD" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.polynomialNOKandNOD.getNODtest1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GerRandomPolynomialTest (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EncodeTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.polynomialNOKandNOD.getNODtest1" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GerRandomPolynomialTest (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EncodeTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PolynomialStringRepresentationTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PolynomialStringRepresentationTest.stringRepresentationAllNegativeBaseTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EncodeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GerRandomPolynomialTest (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.polynomialNOKandNOD.getNODtest1" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.polynomialNOKandNOD" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GerRandomPolynomialTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PolynomialStringRepresentationTest.stringRepresentationAllNegativeBaseTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PolynomialStringRepresentationTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EncodeTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GerRandomPolynomialTest (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.polynomialNOKandNOD.getNODtest1" />
       </list>
     </recent_temporary>
   </component>
@@ -846,13 +832,17 @@
       <option name="project" value="LOCAL" />
       <updated>1495060611741</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updates">
+      <created>1495982938692</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1495982938692</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EncodeTest - 2017.05.21 at 13h 05m 15s.xml">
-      <configuration name="EncodeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EncodeTest - 2017.05.21 at 13h 05m 29s.xml">
       <configuration name="EncodeTest" configurationId="JUnit" />
     </history-entry>
@@ -880,6 +870,9 @@
     <history-entry file="EncodeTest - 2017.05.21 at 16h 13m 17s.xml">
       <configuration name="EncodeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PolynomialStringRepresentationTest_stringRepresentationAllNegativeBaseTest - 2017.05.28 at 18h 37m 00s.xml">
+      <configuration name="PolynomialStringRepresentationTest.stringRepresentationAllNegativeBaseTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -897,10 +890,11 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32793522" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.506875" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.506875" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6626181" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28475034" sideWeight="0.493125" order="2" side_tool="false" content_ui="tabs" />
@@ -920,7 +914,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout>
@@ -985,12 +978,13 @@
     <MESSAGE value="New Tests for Pow&#10;(0^0=not define o_O, but now 1)" />
     <MESSAGE value="added nod and nok functions" />
     <MESSAGE value="added nod and nok functions)))" />
-    <option name="LAST_COMMIT_MESSAGE" value="added nod and nok functions)))" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1003,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,11 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2873#2874#0" expanded="false" />
-            <element signature="e#2952#2953#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,7 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1071,9 +1054,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,7 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,7 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,7 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,15 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="130" column="23" lean-forward="false" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,7 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,7 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,7 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3003">
           <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,7 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,7 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="3517" column="15" lean-forward="false" selection-start-line="3517" selection-start-column="15" selection-end-line="3517" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,31 +1169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="120" column="5" lean-forward="false" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beans/Polynomial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beans/PolynomialFraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beans/RationalPolynomial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1238,18 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beans/SecretKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,9 +1183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1267,7 +1190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,7 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,7 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1018">
           <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1291,7 +1211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,7 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="24" column="93" lean-forward="false" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,10 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1318,7 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-178">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1326,15 +1239,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/polynomialNOKandNOD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="378">
           <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding />
         </state>
@@ -1344,14 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/polynomial/PolynomialStringRepresentationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1374,7 +1276,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/polynomial/PolynomialMapWithTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="105">
           <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding />
         </state>
@@ -1390,7 +1292,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/polynomial/PolynomialSubtractTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="105">
           <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1400,9 +1302,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/GetPolynomialFromIntWithBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="525">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="111" column="41" lean-forward="false" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/polynomial/PolynomialStringRepresentationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beans/SecretKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beans/PolynomialFraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beans/Polynomial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="105" column="46" lean-forward="false" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beans/RationalPolynomial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#4645#4646#0" expanded="true" />
+            <element signature="e#4676#4677#0" expanded="true" />
+            <element signature="e#4716#4717#0" expanded="true" />
+            <element signature="e#4748#4749#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

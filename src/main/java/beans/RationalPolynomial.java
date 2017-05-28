@@ -1,7 +1,7 @@
 package beans;
 
 /**
- * Created by zajic on 06.04.17.
+ * Created by efreme on 06.04.17.
  * Класс для представления рационального полинома.
  * Состоит из целой части и остатка.
  * Создавать так : new RationalPolynomial().withWholePart(Polynomial.ZERO).withReminder(Polynomial.ONE)

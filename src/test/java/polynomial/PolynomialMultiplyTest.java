@@ -3,19 +3,21 @@ package polynomial;
 import beans.Polynomial;
 import org.junit.Test;
 
+import java.math.BigInteger;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 
 /**
- * Created by zajic on 05.04.17.
+ * Created by efreme on 05.04.17.
  */
 public class PolynomialMultiplyTest {
     @Test
     public void polynomMultiplyWithOneElement() {
         assertThat(new Polynomial()
-                        .withCoefficientAndDegree(5, 2)
+                        .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
                         .multiply(new Polynomial()
-                                .withCoefficientAndDegree(5, 2))
+                                .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2)))
                         .toString(),
                 equalTo("25x^4"));
     }
@@ -23,11 +25,11 @@ public class PolynomialMultiplyTest {
     @Test
     public void polynomMultiplyWithTwoElements() {
         assertThat(new Polynomial()
-                        .withCoefficientAndDegree(5, 2)
-                        .withCoefficientAndDegree(3, 3)
+                        .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
+                        .withCoefficientAndDegree(BigInteger.valueOf(3), BigInteger.valueOf(3))
                         .multiply(new Polynomial()
-                                .withCoefficientAndDegree(5, 2)
-                                .withCoefficientAndDegree(3, 3))
+                                .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
+                                .withCoefficientAndDegree(BigInteger.valueOf(3), BigInteger.valueOf(3)))
                         .toString(),
                 equalTo("9x^6+30x^5+25x^4"));
     }
@@ -35,10 +37,10 @@ public class PolynomialMultiplyTest {
     @Test
     public void polynomMultiplyWithDifferentNumberOfElements() {
         assertThat(new Polynomial()
-                        .withCoefficientAndDegree(5, 2)
+                        .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
                         .multiply(new Polynomial()
-                                .withCoefficientAndDegree(5, 2)
-                                .withCoefficientAndDegree(3, 3))
+                                .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
+                                .withCoefficientAndDegree(BigInteger.valueOf(3), BigInteger.valueOf(3)))
                         .toString(),
                 equalTo("15x^5+25x^4"));
     }
@@ -46,8 +48,8 @@ public class PolynomialMultiplyTest {
     @Test
     public void polynomMultiplyWithEmptyTerm() {
         assertThat(new Polynomial().multiply(new Polynomial()
-                        .withCoefficientAndDegree(5, 2)
-                        .withCoefficientAndDegree(3, 3))
+                        .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
+                        .withCoefficientAndDegree(BigInteger.valueOf(3), BigInteger.valueOf(3)))
                         .toString(),
                 equalTo("0"));
     }
@@ -55,11 +57,11 @@ public class PolynomialMultiplyTest {
     @Test
     public void polynomMultiplyShouldNotChangeTerms() {
         Polynomial polynomial1 = new Polynomial()
-                .withCoefficientAndDegree(5, 2);
+                .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2));
 
         Polynomial polynomial2 = new Polynomial()
-                .withCoefficientAndDegree(5, 2)
-                .withCoefficientAndDegree(3, 3);
+                .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
+                .withCoefficientAndDegree(BigInteger.valueOf(3), BigInteger.valueOf(3));
 
         assertThat(polynomial1.multiply(polynomial2).toString(),
                 equalTo("15x^5+25x^4"));

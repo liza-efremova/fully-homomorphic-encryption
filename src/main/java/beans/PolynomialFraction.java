@@ -3,7 +3,7 @@ package beans;
 import static utils.HomomorphicEncryptionUtils.polynomialNOK;
 
 /**
- * Created by zajic on 07.04.17.
+ * Created by efreme on 07.04.17.
  */
 public class PolynomialFraction {
     private Polynomial numerator;

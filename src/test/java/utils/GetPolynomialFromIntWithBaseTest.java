@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 import static utils.HomomorphicEncryptionUtils.getPolynomialFromIntWithBase;
 
 /**
- * Created by zajic on 09.04.17.
+ * Created by efreme on 09.04.17.
  */
 public class GetPolynomialFromIntWithBaseTest {
 

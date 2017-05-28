@@ -3,19 +3,21 @@ package polynomial;
 import beans.Polynomial;
 import org.junit.Test;
 
+import java.math.BigInteger;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 
 /**
- * Created by zajic on 04.04.17.
+ * Created by efreme on 04.04.17.
  */
 public class PolynomialAddTest {
     @Test
     public void polynomAdditionWithOneElement() {
         assertThat(new Polynomial()
-                        .withCoefficientAndDegree(5, 2)
+                        .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
                         .add(new Polynomial()
-                                .withCoefficientAndDegree(5, 2))
+                                .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2)))
                         .toString(),
                 equalTo("10x^2"));
     }
@@ -23,11 +25,11 @@ public class PolynomialAddTest {
     @Test
     public void polynomAdditionWithTwoElements() {
         assertThat(new Polynomial()
-                        .withCoefficientAndDegree(5, 2)
-                        .withCoefficientAndDegree(3, 3)
+                        .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
+                        .withCoefficientAndDegree(BigInteger.valueOf(3), BigInteger.valueOf(3))
                         .add(new Polynomial()
-                                .withCoefficientAndDegree(5, 2)
-                                .withCoefficientAndDegree(3, 3))
+                                .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
+                                .withCoefficientAndDegree(BigInteger.valueOf(3), BigInteger.valueOf(3)))
                         .toString(),
                 equalTo("6x^3+10x^2"));
     }
@@ -35,10 +37,10 @@ public class PolynomialAddTest {
     @Test
     public void polynomAdditionWithDifferentNumberOfElements() {
         assertThat(new Polynomial()
-                        .withCoefficientAndDegree(5, 2)
+                        .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
                         .add(new Polynomial()
-                                .withCoefficientAndDegree(5, 2)
-                                .withCoefficientAndDegree(3, 3))
+                                .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
+                                .withCoefficientAndDegree(BigInteger.valueOf(3), BigInteger.valueOf(3)))
                         .toString(),
                 equalTo("3x^3+10x^2"));
     }
@@ -46,8 +48,8 @@ public class PolynomialAddTest {
     @Test
     public void polynomAdditionWithEmptyTerm() {
         assertThat(new Polynomial().add(new Polynomial()
-                                .withCoefficientAndDegree(5, 2)
-                                .withCoefficientAndDegree(3, 3))
+                                .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
+                                .withCoefficientAndDegree(BigInteger.valueOf(3), BigInteger.valueOf(3)))
                         .toString(),
                 equalTo("3x^3+5x^2"));
     }
@@ -55,11 +57,11 @@ public class PolynomialAddTest {
     @Test
     public void polynomAdditionShouldNotChangeTerms() {
         Polynomial polynomial1 = new Polynomial()
-                .withCoefficientAndDegree(5, 2);
+                .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2));
 
         Polynomial polynomial2 = new Polynomial()
-                .withCoefficientAndDegree(5, 2)
-                .withCoefficientAndDegree(3, 3);
+                .withCoefficientAndDegree(BigInteger.valueOf(5), BigInteger.valueOf(2))
+                .withCoefficientAndDegree(BigInteger.valueOf(3), BigInteger.valueOf(3));
 
         assertThat(polynomial1.add(polynomial2).toString(),
                 equalTo("3x^3+10x^2"));

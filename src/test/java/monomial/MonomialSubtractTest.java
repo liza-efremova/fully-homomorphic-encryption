@@ -3,6 +3,8 @@ package monomial;
 import beans.Monomial;
 import org.junit.Test;
 
+import java.math.BigInteger;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 
@@ -20,8 +22,8 @@ public class MonomialSubtractTest {
 
     @Test
     public void monomialSubtractSameElement2() {
-        assertThat(new Monomial().withCoefficient(1).withDegree(0)
-                        .subtract(new Monomial().withCoefficient(0).withDegree(0))
+        assertThat(new Monomial().withCoefficient(BigInteger.ONE).withDegree(BigInteger.ZERO)
+                        .subtract(new Monomial().withCoefficient(BigInteger.ZERO).withDegree(BigInteger.ZERO))
                         .toString(),
                 equalTo("1"));
     }

@@ -3,6 +3,8 @@ package monomial;
 import beans.Monomial;
 import org.junit.Test;
 
+import java.math.BigInteger;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 
@@ -28,16 +30,16 @@ public class MonomialAddTest {
 
     @Test
     public void monomialAddSameElement() {
-        assertThat(new Monomial().withCoefficient(-1).withDegree(1)
-                        .add(new Monomial().withCoefficient(1).withDegree(1))
+        assertThat(new Monomial().withCoefficient(BigInteger.ONE.negate()).withDegree(BigInteger.ONE)
+                        .add(new Monomial().withCoefficient(BigInteger.ONE).withDegree(BigInteger.ONE))
                         .toString(),
                 equalTo("0"));
     }
 
     @Test
     public void monomialAddSameElement2() {
-        assertThat(new Monomial().withCoefficient(-1).withDegree(0)
-                        .add(new Monomial().withCoefficient(1).withDegree(0))
+        assertThat(new Monomial().withCoefficient(BigInteger.ONE.negate()).withDegree(BigInteger.ZERO)
+                        .add(new Monomial().withCoefficient(BigInteger.ONE).withDegree(BigInteger.ZERO))
                         .toString(),
                 equalTo("0"));
     }

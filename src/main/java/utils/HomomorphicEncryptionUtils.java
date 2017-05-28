@@ -4,10 +4,11 @@ import beans.Polynomial;
 import beans.RationalPolynomial;
 import beans.SecretKey;
 
+import java.math.BigInteger;
 import java.util.Random;
 
 /**
- * Created by zajic on 09.04.17.
+ * Created by efreme on 09.04.17.
  */
 public class HomomorphicEncryptionUtils {
     public static Polynomial getPolynomialFromIntWithBase(int value, int base) {
@@ -17,7 +18,7 @@ public class HomomorphicEncryptionUtils {
 
         for (int degree = digits.length - 1, index = 0; degree >= 0; degree--, index++) {
             int coefficient = Integer.valueOf(String.valueOf(digits[index]));
-            polynomial.withCoefficientAndDegree(coefficient, degree);
+            polynomial.withCoefficientAndDegree(BigInteger.valueOf(coefficient), BigInteger.valueOf(degree));
         }
 
         return polynomial;
@@ -38,7 +39,9 @@ public class HomomorphicEncryptionUtils {
         int a = rnd.nextInt(100);
         int b = rnd.nextInt(100);
 
-        return new Polynomial().withCoefficientAndDegree(a * a, 2 * degreeTwo).withCoefficientAndDegree(b * b, 0);
+        return new Polynomial()
+                .withCoefficientAndDegree(BigInteger.valueOf(a * a), BigInteger.valueOf(2 * degreeTwo))
+                .withCoefficientAndDegree(BigInteger.valueOf(b * b), BigInteger.ZERO);
     }
 
     public static int positiveNumber(int bound) {
@@ -47,7 +50,6 @@ public class HomomorphicEncryptionUtils {
 
         while (res == 0) {
             res = rnd.nextInt(bound + 1);
-//            System.out.println("bound: " + bound + " res: " + res);
         }
 
         return res;
@@ -69,8 +71,9 @@ public class HomomorphicEncryptionUtils {
         int a = rnd.nextInt(50);
         int b = rnd.nextInt(50);
         randomPolynomial = randomPolynomial.multiply(new Polynomial()
-                .withCoefficientAndDegree(a, 1)
-                .withCoefficientAndDegree(b, 0)).add(new Polynomial().withCoefficientAndDegree(base,0));
+                .withCoefficientAndDegree(BigInteger.valueOf(a), BigInteger.ONE)
+                .withCoefficientAndDegree(BigInteger.valueOf(b), BigInteger.ZERO))
+                .add(new Polynomial().withCoefficientAndDegree(BigInteger.valueOf(base), BigInteger.ZERO));
 
         SecretKey key = new SecretKey();
         key.setMappingPolynomial(randomPolynomial);
@@ -109,15 +112,5 @@ public class HomomorphicEncryptionUtils {
 
         Polynomial polynomFromOpenData2 = getPolynomialFromIntWithBase(opendata2, 9);
         Polynomial encodedOpenData2 = polynomFromOpenData2.mapWith(secretKey.getMappingPolynomial());
-
-        long now = System.nanoTime();
-
-
-        int a = 1111;
-        for (int i = 0; i < 10000; i++) {
-            a = a*a;
-        }
-
-        System.out.println(System.nanoTime() - now);
     }
 }

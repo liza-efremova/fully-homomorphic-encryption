@@ -1,27 +1,32 @@
 package beans;
 
 
+import java.math.BigInteger;
+
 /**
- * Created by zajic on 06.04.17.
+ * Created by efreme on 06.04.17.
  */
 public class Monomial {
-    public static final Monomial ONE = new Monomial().withCoefficient(1).withDegree(0);
+    public static final Monomial ONE = new Monomial()
+            .withCoefficient(BigInteger.ONE)
+            .withDegree(BigInteger.ZERO);
+
     public static final Monomial ZERO = new Monomial();
 
-    private int degree;
-    private int coefficient;
+    private BigInteger degree;
+    private BigInteger coefficient;
 
     public Monomial(){
-        degree = 0;
-        coefficient = 0;
+        degree = BigInteger.ZERO;
+        coefficient = BigInteger.ZERO;
     }
 
     public Monomial add(Monomial term){
         Monomial result = new Monomial();
 
-        int coefficientSum = coefficient + term.coefficient;
-        if(coefficientSum == 0)
-            result.withDegree(0);
+        BigInteger coefficientSum = coefficient.add(term.coefficient);
+        if(coefficientSum.compareTo(BigInteger.ZERO) == 0)
+            result.withDegree(BigInteger.ZERO);
         else
             result.withDegree(degree);
 
@@ -34,19 +39,19 @@ public class Monomial {
 
     public Monomial multiply(Monomial multiplier){
         return new Monomial()
-                .withCoefficient(coefficient * multiplier.coefficient)
-                .withDegree(degree + multiplier.degree);
+                .withCoefficient(coefficient.multiply(multiplier.coefficient))
+                .withDegree(degree.add(multiplier.degree));
     }
 
     public Monomial divide(Monomial divisor){
         return new Monomial()
-                .withCoefficient(coefficient / divisor.coefficient)
-                .withDegree(degree - divisor.degree);
+                .withCoefficient(coefficient.divide(divisor.coefficient))
+                .withDegree(degree.subtract(divisor.degree));
     }
 
     public Monomial negate(){
         return new Monomial()
-                .withCoefficient(-coefficient)
+                .withCoefficient(coefficient.negate())
                 .withDegree(degree);
     }
 
@@ -56,20 +61,20 @@ public class Monomial {
                 .withDegree(degree);
     }
 
-    public Integer getDegree() {
+    public BigInteger getDegree() {
         return degree;
     }
 
-    public Integer getCoefficient() {
+    public BigInteger getCoefficient() {
         return coefficient;
     }
 
-    public Monomial withDegree(int degree) {
+    public Monomial withDegree(BigInteger degree) {
         this.degree = degree;
         return this;
     }
 
-    public Monomial withCoefficient(int coefficient) {
+    public Monomial withCoefficient(BigInteger coefficient) {
         this.coefficient = coefficient;
         return this;
     }
@@ -83,30 +88,32 @@ public class Monomial {
     }
 
     private boolean isDegreeSpecial(){
-        return degree == 0 || degree == 1 ;
+        return degree.compareTo(BigInteger.ZERO) == 0 || degree.compareTo(BigInteger.ONE) == 0 ;
     }
 
     private boolean isCoefficientSpecial(){
-        return coefficient == 0 || coefficient == 1 || coefficient == -1;
+        return coefficient.compareTo(BigInteger.ZERO) == 0 ||
+                coefficient.compareTo(BigInteger.ONE) == 0 ||
+                coefficient.compareTo(BigInteger.ONE.negate()) == 0;
     }
 
     private String handleSpecialCases(){
-        if (coefficient == 0)
+        if (coefficient.compareTo(BigInteger.ZERO) == 0)
             return "0";
-        if (degree == 0)
+        if (degree.compareTo(BigInteger.ZERO) == 0)
             return "" + coefficient;
 
-        if (coefficient == 1 && !isDegreeSpecial())
+        if (coefficient.compareTo(BigInteger.ONE) == 0 && !isDegreeSpecial())
             return "x^" + degree;
-        if (coefficient == -1 && !isDegreeSpecial())
+        if (coefficient.compareTo(BigInteger.ONE.negate()) == 0 && !isDegreeSpecial())
             return "-x^" + degree;
 
-        if (coefficient == 1 && degree == 1)
+        if (coefficient.compareTo(BigInteger.ONE) == 0 && degree.compareTo(BigInteger.ONE) == 0)
             return "x";
-        if (coefficient == -1 && degree == 1)
+        if (coefficient.compareTo(BigInteger.ONE.negate()) == 0 && degree.compareTo(BigInteger.ONE.negate()) == 0)
             return "-x";
 
-        if (degree == 1 && !isCoefficientSpecial())
+        if (degree.compareTo(BigInteger.ONE) == 0 && !isCoefficientSpecial())
             return coefficient + "x";
 
         throw new IllegalStateException("Не смогли перевести в строку одночлен, " +
@@ -115,9 +122,7 @@ public class Monomial {
 
     public static final Monomial valueOf(String monomialAsString){
         Monomial result = new Monomial();
-
-
-
+        //todo
         return result;
     }
 }

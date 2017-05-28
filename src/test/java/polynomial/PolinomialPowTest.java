@@ -3,19 +3,21 @@ package polynomial;
 import beans.Polynomial;
 import org.junit.Test;
 
+import java.math.BigInteger;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 
 /**
- * Created by zajic on 09.04.17.
+ * Created by efreme on 09.04.17.
  */
 public class PolinomialPowTest {
     @Test
     public void polynomPowWithTwoElement() {
         assertThat(new Polynomial()
-                        .withCoefficientAndDegree(1, 2)
-                        .withCoefficientAndDegree(1, 0)
-                        .pow(2)
+                        .withCoefficientAndDegree(BigInteger.ONE, BigInteger.valueOf(2))
+                        .withCoefficientAndDegree(BigInteger.ONE, BigInteger.ZERO)
+                        .pow(BigInteger.valueOf(2))
                         .toString(),
                 equalTo("x^4+2x^2+1"));
     }
@@ -23,9 +25,9 @@ public class PolinomialPowTest {
     @Test
     public void polynomPowWithZeroDegreeElement() {
         assertThat(new Polynomial()
-                        .withCoefficientAndDegree(1, 1)
-                        .withCoefficientAndDegree(1, 0)
-                        .pow(0)
+                        .withCoefficientAndDegree(BigInteger.ONE, BigInteger.ONE)
+                        .withCoefficientAndDegree(BigInteger.ONE, BigInteger.ZERO)
+                        .pow(BigInteger.ZERO)
                         .toString(),
                 equalTo("1"));
     }
@@ -33,28 +35,18 @@ public class PolinomialPowTest {
     @Test
     public void polynomONEPowWithSevenDegreeElement() {
         assertThat(new Polynomial()
-                        .withCoefficientAndDegree(1, 0)
-                        .pow(7)
+                        .withCoefficientAndDegree(BigInteger.ONE, BigInteger.ZERO)
+                        .pow(BigInteger.valueOf(7))
                         .toString(),
                 equalTo("1"));
     }
 
-//Хихик :D
-  //  @Test
-  //  public void polynomNULLPowWithZERODegreeElement() {
-  //      assertThat(new Polynomial()
-  //                      .withCoefficientAndDegree(0, 0)
-  //                      .pow(0)
-  //                      .toString(),
-  //              equalTo("0"));
-  //  }
-
     @Test
     public void polynomNULLPowWithNonZeroDegreeElement() {
         assertThat(new Polynomial()
-                        .withCoefficientAndDegree(0, 1)
-                        .withCoefficientAndDegree(0, 0)
-                        .pow(3)
+                        .withCoefficientAndDegree(BigInteger.ZERO, BigInteger.ONE)
+                        .withCoefficientAndDegree(BigInteger.ZERO, BigInteger.ZERO)
+                        .pow(BigInteger.valueOf(3))
                         .toString(),
                 equalTo("0"));
     }

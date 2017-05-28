@@ -1,14 +1,17 @@
 package beans;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Created by zajic on 03.04.17.
+ * Created by efreme on 03.04.17.
  */
 public class Polynomial {
-    public static final Polynomial ONE = new Polynomial().withCoefficientAndDegree(1, 0);
+    public static final Polynomial ONE = new Polynomial()
+            .withCoefficientAndDegree(BigInteger.ONE, BigInteger.ZERO);
     public static final Polynomial ZERO = new Polynomial();
 
     List<Monomial> monomialList;
@@ -18,7 +21,7 @@ public class Polynomial {
         monomialList.add(Monomial.ZERO);
     }
 
-    public Polynomial withCoefficientAndDegree(int coefficient, int degree){
+    public Polynomial withCoefficientAndDegree(BigInteger coefficient, BigInteger degree){
         monomialList.add(new Monomial().withCoefficient(coefficient).withDegree(degree));
         compact();
         return this;
@@ -78,13 +81,13 @@ public class Polynomial {
 
     //если степень делителя меньше
     public RationalPolynomial divide(Polynomial divisor){
-        if (monomialWithMaxDegree().getDegree() < divisor.monomialWithMaxDegree().getDegree())
+        if (monomialWithMaxDegree().getDegree().compareTo(divisor.monomialWithMaxDegree().getDegree()) == -1)
             throw new IllegalStateException("Степень делителя должна быть выше делимого");
 
         Polynomial reminder = copy();
         Polynomial wholePart = new Polynomial();
 
-        while(reminder.monomialWithMaxDegree().getDegree() >= divisor.monomialWithMaxDegree().getDegree()) {
+        while(reminder.monomialWithMaxDegree().getDegree().compareTo(divisor.monomialWithMaxDegree().getDegree()) >= 0) {
 
             Monomial monoWholePart = reminder.monomialWithMaxDegree().divide(divisor.monomialWithMaxDegree());
             wholePart.withMonomial(monoWholePart);
@@ -103,12 +106,13 @@ public class Polynomial {
                         .withDenominator(divisor.copy()));
     }
 
-    public Polynomial pow(int degree){
-        if (degree == 0)
+    //degree can't be higher than Integer.MAX_VALUE
+    public Polynomial pow(BigInteger degree){
+        if (degree.intValue() == 0)
             return ONE;
 
         Polynomial result = copy();
-        for (int i = 1; i < degree; i ++){
+        for (int i = 1; i < degree.intValue(); i ++){
             result = result.multiply(result);
         }
 
@@ -121,7 +125,8 @@ public class Polynomial {
         ArrayList<Polynomial> tempPolynomials = result.getMonomialList().stream()
                 .map(monomial -> randomPolynomial
                 .pow(monomial.getDegree())
-                .multiply(new Polynomial().withCoefficientAndDegree(monomial.getCoefficient(), 0))).collect(Collectors.toCollection(ArrayList::new));
+                .multiply(new Polynomial().withCoefficientAndDegree(monomial.getCoefficient(), BigInteger.ZERO)))
+                .collect(Collectors.toCollection(ArrayList::new));
 
         result = tempPolynomials.stream().reduce(Polynomial::add).get();
 
@@ -142,9 +147,9 @@ public class Polynomial {
         return result;
     }
 
-    private int getIndexOfMonomialWithDegree(int degree){
+    private int getIndexOfMonomialWithDegree(BigInteger degree){
         for (int index = 0; index < monomialList.size(); index ++){
-            if(monomialList.get(index).getDegree() == degree)
+            if(monomialList.get(index).getDegree().compareTo(degree) == 0)
                 return index;
         }
         return -1;
@@ -152,9 +157,7 @@ public class Polynomial {
 
     public static final Polynomial valueOf(String polynomialAsString){
         Polynomial result = new Polynomial();
-
-        //todo можно регулярками вроде
-
+        //todo parse input with regex
         return result;
     }
 
@@ -168,24 +171,22 @@ public class Polynomial {
     }
 
     private void buildMultiplier(Monomial monomial, StringBuilder builder) {
-        if (monomial.getCoefficient() > 0 && !isMaxDegree(monomial.getDegree()))
+        if (monomial.getCoefficient().compareTo(BigInteger.ZERO) == 1 && !isMaxDegree(monomial.getDegree()))
             builder.append("+");
 
         builder.append(monomial.toString());
     }
 
-    private boolean isMaxDegree(int degree){
-        int currentMaxDegree = monomialList.stream()
-                .max((Monomial m1, Monomial m2) ->
-                        m1.getDegree().compareTo(m2.getDegree())).get()
+    private boolean isMaxDegree(BigInteger degree){
+        BigInteger currentMaxDegree = monomialList.stream()
+                .max(Comparator.comparing(Monomial::getDegree)).get()
                 .getDegree();
-        return degree == currentMaxDegree;
+        return degree.compareTo(currentMaxDegree) == 0;
     }
 
     private Monomial monomialWithMaxDegree(){
         return monomialList.stream()
-                .max((Monomial m1, Monomial m2) ->
-                        m1.getDegree().compareTo(m2.getDegree()))
+                .max(Comparator.comparing(Monomial::getDegree))
                 .orElseThrow(() -> new IllegalStateException("Многочлен равен нулю"));
     }
 
@@ -193,7 +194,7 @@ public class Polynomial {
         if (monomialList.size() > 1){
             ArrayList<Integer> indexesToBeRemovedFromList = new ArrayList<>();
             for (int index = 0; index < monomialList.size(); index ++){
-                if(monomialList.get(index).getCoefficient() == 0)
+                if(monomialList.get(index).getCoefficient().compareTo(BigInteger.ZERO) == 0)
                     indexesToBeRemovedFromList.add(index);
             }
 
